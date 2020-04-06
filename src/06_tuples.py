@@ -17,6 +17,16 @@ automatically.
 
 import math
 
+def print_tuple(tuple_data):
+
+
+    # print(type(tuple_data) is not tuple)
+    if(type(tuple_data) is int):
+
+        print(tuple_data)
+    else:
+        [print(a) for a in tuple_data]
+
 def dist(a, b):
     """Compute the distance between two x,y points."""
     x0, y0 = a  # Destructuring assignment
